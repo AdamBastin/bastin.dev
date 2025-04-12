@@ -4,7 +4,7 @@ const LatestCommitFetcher = () => {
     const [commit, setCommit] = useState(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
-    const [repo, setRepo] = useState('AdamBastin/Bastin.dev'); // Repo to fetch
+    const [repo] = useState('AdamBastin/Bastin.dev'); // Repo to fetch
 
     const fetchLatestCommit = async (repository) => {
         try {
