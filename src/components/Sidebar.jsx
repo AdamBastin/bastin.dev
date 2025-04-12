@@ -1,8 +1,7 @@
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import {NavLink, Outlet, Route, Routes} from "react-router-dom";
-import HomePage from "../pages/Home.jsx";
+import {NavLink} from "react-router-dom";
 
 export default function Sidebar(){
     return(
